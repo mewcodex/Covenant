@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework><AssemblyName>Covenant</AssemblyName><RootNamespace>Covenant</RootNamespace>
+    <Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><LangVersion>latest</LangVersion>
+    <GameData Condition="'$(GameData)' == ''">F:/SteamLibrary/steamapps/common/Slay the Spire 2/data_sts2_windows_x86_64</GameData>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="sts2"><HintPath>$(GameData)/sts2.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="GodotSharp"><HintPath>$(GameData)/GodotSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GameData)/0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <EmbeddedResource Include="Data/*.json" /><EmbeddedResource Include="Assets/Icons/*.png" />
+    <None Update="Covenant.json" CopyToOutputDirectory="PreserveNewest" />
+    <Compile Remove="Tests/**/*.cs" /><Compile Remove="checks/**/*.cs" />
+  </ItemGroup>
+</Project>

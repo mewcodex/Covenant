@@ -1,0 +1,94 @@
+{
+  "vakuu": [
+    {
+      "card": "DemonForm",
+      "reason": "0.5更正稿确认的瓦库成员。"
+    },
+    {
+      "card": "BurningPact",
+      "reason": "0.5更正稿确认的瓦库成员。"
+    },
+    {
+      "card": "PactsEnd",
+      "reason": "0.5更正稿确认的瓦库成员。"
+    },
+    {
+      "card": "Apparition",
+      "reason": "0.5更正稿确认的瓦库成员。"
+    },
+    {
+      "card": "Wish",
+      "reason": "0.5更正稿确认的瓦库成员。"
+    },
+    {
+      "card": "Corruption",
+      "reason": "0.5更正稿确认的瓦库成员。"
+    },
+    {
+      "card": "FiendFire",
+      "reason": "0.5更正稿确认的瓦库成员。"
+    },
+    {
+      "card": "DemonicShield",
+      "reason": "0.5更正稿确认的瓦库成员。"
+    },
+    {
+      "card": "ForgottenRitual",
+      "reason": "0.5更正稿确认的瓦库成员。"
+    },
+    {
+      "card": "TheDevil",
+      "reason": "0.5更正稿确认的瓦库成员。"
+    }
+  ],
+  "tony": [
+    {
+      "card": "Bulwark",
+      "reason": "升级后获得15点格挡。"
+    },
+    {
+      "card": "ChoChorus",
+      "reason": "升级后获得15点格挡。"
+    },
+    {
+      "card": "ExpectAFight",
+      "reason": "未升级时获得15点格挡。"
+    },
+    {
+      "card": "Reflect",
+      "reason": "未升级时获得15点格挡。"
+    },
+    {
+      "card": "ShadowShield",
+      "reason": "升级后获得15点格挡。"
+    },
+    {
+      "card": "UltimateDefend",
+      "reason": "升级后获得15点格挡。"
+    },
+    {
+      "card": "SecondWind",
+      "reason": "未升级时消耗3张非攻击手牌，一次打出获得15点格挡。"
+    },
+    {
+      "card": "Colossus",
+      "reason": "升级后7点格挡加对易伤敌人的50%减伤，承受16点攻击时只失去1点生命。"
+    },
+    {
+      "card": "LegSweep",
+      "reason": "未升级时11点格挡加本牌施加的虚弱，16点攻击变为12点，只失去1点生命。"
+    },
+    {
+      "card": "HarmonicShield",
+      "reason": "未升级时拥有三种旋律，一次打出获得5×3=15点格挡。"
+    },
+    {
+      "card": "ToricToughness",
+      "reason": "未升级时一次出牌提供当前5点格挡及下两个回合各5点格挡，共15点；无需再打出其他牌。"
+    },
+    {
+      "card": "DemonicShield",
+      "reason": "自身有16点格挡时，本牌向另一名玩家提供16点格挡并使自己失去1点生命，合计净防御收益为15点。"
+    }
+  ]
+}

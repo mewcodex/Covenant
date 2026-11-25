@@ -1,0 +1,5746 @@
+{
+  "Abrasive": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Abundance": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Accelerant": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Accuracy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Acrobatics": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "AdaptiveStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "Adrenaline": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Afterimage": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Afterlife": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Aggression": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Alchemize": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Alignment": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "AllForOne": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "AllIsWell": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Amnesia": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Anger": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Anguish": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Anointed": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Anticipate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Apotheosis": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Apparition": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Archery": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Armaments": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ArrowStab": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Arsenal": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "AscendersBane": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "AshenStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "Assassinate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "AstralPulse": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Automation": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Backflip": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Backstab": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BadLuck": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BallLightning": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BansheesCry": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Barrage": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Barricade": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Bash": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BattleTrance": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BeaconOfHope": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BeamCell": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BeatDown": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BeatIntoShape": {
+    "orbs": false,
+    "doom": false,
+    "forge": true,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Beckon": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Begone": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BelieveInYou": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BiasedCognition": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BigBang": {
+    "orbs": false,
+    "doom": false,
+    "forge": true,
+    "stretch": false,
+    "gainStars": true,
+    "strikeName": false
+  },
+  "BlackHole": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BladeDance": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BladeOfInk": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BladeSymphony": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Blaze": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BlightStrike": {
+    "orbs": false,
+    "doom": true,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "BloodWall": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Bloodletting": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BlossomShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": true,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BlotOutTheSky": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Bludgeon": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Blur": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BodySlam": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Bodyguard": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Bolas": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Bombardment": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BoneShards": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BoostAway": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BootSequence": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BorrowedTime": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Bounce": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": true,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BouncingFlask": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BowSmack": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Brace": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Brand": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Break": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Breakthrough": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BrightenUp": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BrightestFlame": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BubbleBubble": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Buffer": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BulkUp": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BulletTime": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Bully": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Bulwark": {
+    "orbs": false,
+    "doom": false,
+    "forge": true,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BundleOfJoy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Burn": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "BurningPact": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Burst": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Bury": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ByrdSwoop": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ByrdonisEgg": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Cacophony": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Calamity": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Calcify": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CalculatedGamble": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CallOfTheVoid": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Caltrops": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Capacitor": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CaptureSpirit": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Cascade": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Catastrophe": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CelestialMight": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Chaos": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Charge": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ChargeBattery": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ChildOfTheStars": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Chill": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ChoBarbs": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ChoChorus": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ChoFirm": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ChoKi": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": true,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ChoLimbs": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ChoReady": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Cinder": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Clash": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Claw": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Cleanse": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CloakAndDagger": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CloakOfStars": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Clumsy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Coda": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ColdSnap": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CollisionCourse": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Colossus": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Comet": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Compact": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CompileDriver": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Compost": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Concoct": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Conflagration": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Conqueror": {
+    "orbs": false,
+    "doom": false,
+    "forge": true,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Constellation": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ConsumingShadow": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Convergence": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": true,
+    "strikeName": false
+  },
+  "Coolant": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Coolheaded": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Coordinate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CorrosiveWave": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Corruption": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CosmicIndifference": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Countdown": {
+    "orbs": false,
+    "doom": true,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CoveringFire": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CrashLanding": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CreativeAi": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CrescentSpear": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CrimsonMantle": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Cruelty": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CrushUnder": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "CurseOfTheBell": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DaggerSpray": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DaggerThrow": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DanseMacabre": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DarkEmbrace": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DarkShackles": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Darkness": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Dash": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Dazed": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DeadlyPoison": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Death": {
+    "orbs": false,
+    "doom": true,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DeathMarch": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Deathbringer": {
+    "orbs": false,
+    "doom": true,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DeathsDoor": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Debilitate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Debris": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Debt": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Decay": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DecisionsDecisions": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DeepStretch": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": true,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DefendDefect": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DefendFool": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DefendIronclad": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DefendNecrobinder": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DefendRegent": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DefendSilent": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Defile": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Deflect": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Defragment": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Defy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Delay": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Demesne": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DemonForm": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DemonicShield": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DeprecatedCard": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Devastate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DevourLife": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DingyDagger": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Dirge": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Discovery": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Disintegration": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DislikeYou": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Dismantle": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Distraction": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DivineShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DodgeAndRoll": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Dominate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DoubleEnergy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Doubt": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Dowsing": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DrainPower": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DramaticEntrance": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Dredge": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DrumOfBattle": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DualWield": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Dualcast": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "DyingStar": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "EchoForm": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "EchoingSlash": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Ecstasy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Eidolon": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Encore": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "EndOfDays": {
+    "orbs": false,
+    "doom": true,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "EnergySurge": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "EnfeeblingTouch": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Enlightenment": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Ennui": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Enrapture": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": true,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Ensemble": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Enthralled": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Entrench": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Entropy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Envenom": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "EpicRetrieval": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Equilibrium": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Eradicate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "EscapePlan": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "EternalArmor": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "EvilEye": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ExpectAFight": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Expertise": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ExplosiveArrows": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Expose": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Exterminate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Fade": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FallingStar": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FanOfKnives": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Fasten": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Fear": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Feed": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FeedingFrenzy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FeelNoPain": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Feral": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Fetch": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FiendFire": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FightMe": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FightThrough": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Finesse": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Finisher": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Fisticuffs": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FlakCannon": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FlameBarrier": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Flanking": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FlashOfSteel": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Flatten": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Flechettes": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FlickFlack": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Florescence": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FocusedStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "Folly": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FoolishShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Footwork": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ForbiddenGrimoire": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ForegoneConclusion": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ForgottenRitual": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "FranticEscape": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Friendship": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Ftl": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Fuel": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Furnace": {
+    "orbs": false,
+    "doom": false,
+    "forge": true,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Fusion": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "GammaBlast": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "GangUp": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "GatherLight": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": true,
+    "strikeName": false
+  },
+  "Genesis": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": true,
+    "strikeName": false
+  },
+  "GeneticAlgorithm": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "GiantRock": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Glacier": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Glasswork": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Glimmer": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "GlimpseBeyond": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Glitterstream": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Glow": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": true,
+    "strikeName": false
+  },
+  "GoForTheEyes": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "GodByrd": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "GoldAxe": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "GrandFinale": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "GraveWarden": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Graveblast": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Greed": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Growth": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Guards": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "GuidingStar": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Guilty": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "GunkUp": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Hailstorm": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HammerTime": {
+    "orbs": false,
+    "doom": false,
+    "forge": true,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HandOfGreed": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HandTrick": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Hang": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HarmonicShield": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Haunt": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Havoc": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Haze": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Headbutt": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HeavenlyDrill": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HeavyShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Hegemony": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HeirloomHammer": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HelixDrill": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HelloWorld": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Hellraiser": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Hemokinesis": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Hibernate": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HiddenCache": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": true,
+    "strikeName": false
+  },
+  "HiddenDaggers": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HiddenGem": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HiddenRoots": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": true,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HighFive": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HobblingShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Hologram": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Honing": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Hotfix": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HowlFromBeyond": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "HuddleUp": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Hyperbeam": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "IAmInvincible": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "IceLance": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Ignition": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ImitationLearning": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Impatience": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Impervious": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Infection": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "InfernalBlade": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Inferno": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "InfiniteBlades": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Inflame": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Injury": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Intercept": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Invoke": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "IronWave": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Iteration": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "JackOfAllTrades": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Jackpot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Jest": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Joy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Judgement": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Juggernaut": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Juggling": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Justice": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "KiChant": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "KiHop": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "KiRest": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "KiVerse": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "KiWhip": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "KinglyKick": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "KinglyPunch": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "KnifeTrap": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Knockdown": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "KnockoutBlow": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": true,
+    "strikeName": false
+  },
+  "KnowThyPlace": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "LanternKey": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Largesse": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "LeadingStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "Leap": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "LegSweep": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "LegionOfBone": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Lethality": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Lift": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "LightningRod": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "LockedIn": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Loop": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "LostLute": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Lullaby": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Luminesce": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "LunarBlast": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MachineLearning": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MadScience": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MakeItSo": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Malaise": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Mangle": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ManifestAuthority": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MasterOfStrategy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MasterPlanner": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Maul": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Mayhem": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Melancholy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MelodicShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MementoMori": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Metamorphosis": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MeteorShower": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MeteorStrike": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "Midnight": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MightyShield": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MightyWeapon": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Mimic": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MindBlast": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MindRot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MinionDiveBomb": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MinionSacrifice": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MinionStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "Mirage": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Misery": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Modded": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MoltenFist": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MomentumStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "MonarchsGaze": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Monologue": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Motif": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MourningBlow": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MultiCast": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Murder": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MyShinies": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "MythicForm": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Nail": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "NecroMastery": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "NegativePulse": {
+    "orbs": false,
+    "doom": true,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "NeowsFury": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Neurosurge": {
+    "orbs": false,
+    "doom": true,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Neutralize": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "NeutronAegis": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Nightmare": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "NoEscape": {
+    "orbs": false,
+    "doom": true,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Nock": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Normality": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Nostalgia": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "NotYet": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "NoxiousFumes": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Null": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Oblivion": {
+    "orbs": false,
+    "doom": true,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Offering": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Omnislice": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "OneForAll": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "OneTwoPunch": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Orbit": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Outbreak": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Outmaneuver": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Outrage": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Overclock": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PactsEnd": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Pagestorm": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PaleBlueDot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Panache": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PanicButton": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Parry": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Parse": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ParticleWall": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Patter": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Peck": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PerfectedStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "PhantomBlades": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PhotonCut": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PiercingWail": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Pillage": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PillarOfCreation": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Pinpoint": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Plot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PoisonedStab": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Poke": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PommelStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "PoorSleep": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Pounce": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PreciseCut": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Predator": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PrepTime": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Prepared": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PrimalForce": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Production": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Prolong": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Prophesize": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Protector": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Prowess": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PullAggro": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PullFromBelow": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "PunchOfJoy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Purity": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Putrefy": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Pyre": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Quadcast": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Quasar": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "QuickShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Quietus": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Quiver": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Radiate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Rage": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "RainShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Rainbow": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Rally": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Rampage": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Rattle": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Reanimate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Reap": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ReaperForm": {
+    "orbs": false,
+    "doom": true,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Reave": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Reboot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Rebound": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Recall": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "RefineBlade": {
+    "orbs": false,
+    "doom": false,
+    "forge": true,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Reflect": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Reflex": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Refract": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Regret": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Relax": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Rend": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "RepeatShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Resonance": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Restlessness": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "RhythmStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "Ricochet": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "RightHandHand": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "RipAndTear": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "RocketPunch": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "RollingBoulder": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "RoyalGamble": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": true,
+    "strikeName": false
+  },
+  "Royalties": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Rummage": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Rupture": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Sacrifice": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Sadness": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Salvo": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Scavenge": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Scourge": {
+    "orbs": false,
+    "doom": true,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Scrape": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Scrawl": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SculptingStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "Seance": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SecondWind": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SecretTechnique": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SecretWeapon": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SeekerStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "SeekingEdge": {
+    "orbs": false,
+    "doom": false,
+    "forge": true,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SelfDeprecate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SentryMode": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SerpentForm": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SerratedArrows": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SetupStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "SevenStars": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Severance": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ShadowShield": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ShadowStep": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Shadowmeld": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Shame": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SharedFate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Shatter": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ShiningStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": true,
+    "strikeName": true
+  },
+  "Shiv": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Shockwave": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ShowOff": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Shroud": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ShrugItOff": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SicEm": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Sidestep": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SignalBoost": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Simpleton": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Skewer": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Skim": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SkyShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SleightOfFlesh": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Slice": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Slimed": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Sloth": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Smokestack": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Snakebite": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Snap": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Sneaky": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SolarStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": true,
+    "strikeName": true
+  },
+  "SongPath": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Soot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SorrowfulStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "Soul": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SoulStorm": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Soulbound": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SovereignBlade": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Sow": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SpectrumShift": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Speedster": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Spinner": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SpiritOfAsh": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Spite": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Splash": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SpoilsMap": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SpoilsOfBattle": {
+    "orbs": false,
+    "doom": false,
+    "forge": true,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SporeMind": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Spur": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Squash": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Squeeze": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Stack": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Stampede": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Stardust": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SteadyCadence": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Stoke": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Stomp": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "StoneArmor": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Storm": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "StormOfSteel": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Strangle": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Stratagem": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Strength": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "StrikeDefect": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "StrikeFool": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "StrikeIronclad": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "StrikeNecrobinder": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "StrikeRegent": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "StrikeSilent": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "Subroutine": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SuckerPunch": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SummonForth": {
+    "orbs": false,
+    "doom": false,
+    "forge": true,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Sunder": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Supercritical": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Supermassive": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Suppress": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Survivor": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SweepingBeam": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SweepingGaze": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SwordBoomerang": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "SwordSage": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Synchronize": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Synthesis": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Tactician": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TagTeam": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Tank": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Taunt": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TearAsunder": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Temperance": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Tempest": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Terraforming": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TeslaCoil": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheBall": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheBomb": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheChariot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheDevil": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheEmperor": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheEmpress": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheFool": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheGambit": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheHangedMan": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheHermit": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheHierophant": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheHighPriestess": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheHunt": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheLovers": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheMagician": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheMoon": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheScythe": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheSealedThrone": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": true,
+    "strikeName": false
+  },
+  "TheShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheSmith": {
+    "orbs": false,
+    "doom": false,
+    "forge": true,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheStar": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheSun": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheTower": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TheWorld": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ThinkingAhead": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Thrash": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ThrummingHatchet": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Thunder": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Thunderclap": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Timber": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TimesUp": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ToolsOfTheTrade": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ToricToughness": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Toxic": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Tracking": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Transfigure": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TrashToTreasure": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Tremble": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TrickShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TrueGrit": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Tune": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Turbo": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Tutor": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TwinStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "Tyranny": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "UltimateDefend": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "UltimateStrike": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": true
+  },
+  "Undeath": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Underworld": {
+    "orbs": false,
+    "doom": true,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Unleash": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Unmovable": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Unrelenting": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Untouchable": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "UpMySleeve": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Uppercut": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Uproar": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Uproot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Veilpiercer": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Venerate": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": true,
+    "strikeName": false
+  },
+  "Vicious": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "ViolentChord": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Vitriol": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Void": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "VoidForm": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Volley": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Voltaic": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WahBlast": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WahCho": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WahChoKi": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WahHammer": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WahKi": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WahSweep": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WahSymphony": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WahTouch": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WasteAway": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WellLaidPlans": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WheelOfFortune": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Whirlwind": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Whistle": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WhistlingArrows": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WhiteNoise": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Wish": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Wisp": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Wither": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Wound": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WraithForm": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Wrest": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Writhe": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "WroughtInWar": {
+    "orbs": false,
+    "doom": false,
+    "forge": true,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Yah": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Yoga": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": true,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Zap": {
+    "orbs": true,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "Optimism": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  },
+  "TwinShot": {
+    "orbs": false,
+    "doom": false,
+    "forge": false,
+    "stretch": false,
+    "gainStars": false,
+    "strikeName": false
+  }
+}

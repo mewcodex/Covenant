@@ -1,0 +1,15 @@
+bin/
+obj/
+__pycache__/
+*.pyc
+test-runtime/
+*.log
+/backups/
+/tmp/
+/dist/
+/output/
+/outputs/
+/audits/*
+!/audits/0.5/
+/audits/0.5/*
+!/audits/0.5/compiled-revisions.json
