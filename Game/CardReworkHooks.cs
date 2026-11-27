@@ -5,18 +5,15 @@ using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Players;
-using MegaCrit.Sts2.Core.Entities.UI;
 using MegaCrit.Sts2.Core.Factories;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Hooks;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Powers;
-using MegaCrit.Sts2.Core.Nodes.Cards;
 using MegaCrit.Sts2.Core.Random;
 using MegaCrit.Sts2.Core.Runs;
 using MegaCrit.Sts2.Core.ValueProps;
-using MegaCrit.Sts2.addons.mega_text;
 
 namespace Covenant.Game;
 
@@ -37,15 +34,6 @@ internal static class CardReworkHooks
             [typeof(PlayerChoiceContext),typeof(IEnumerable<DamageTargetData>),typeof(decimal),typeof(ValueProp),typeof(Creature),typeof(CardModel),typeof(CardPlay),typeof(ModifyDamageHookType)]),
             prefix:Patch(nameof(BeforeDamage)),postfix:Patch(nameof(AfterDamage)),finalizer:Patch(nameof(RestoreDamage)));
         harmony.Patch(AccessTools.Method(typeof(Creature),"DamageBlockInternal"),prefix:Patch(nameof(PierceBlock)));
-        harmony.Patch(AccessTools.Method(typeof(NCard),"UpdateEnergyCostVisuals"),postfix:Patch(nameof(ShowFreeX)));
-    }
-
-    private static void ShowFreeX(NCard __instance)
-    {
-        var card=__instance.Model;
-        if(__instance.Visibility==ModelVisibility.Visible&&card?.IsMutable==true&&CovenantTerminal.For(card.Owner) is {} terminal&&
-            (terminal.ReworkFreeX(card)||card.EnergyCost.CostsX&&terminal.CreationFreeThisTurn(card)))
-            __instance.GetNode<MegaLabel>("%EnergyLabel").SetTextAutoSize("0");
     }
 
     private static void ClashPlayable(Clash __instance,ref bool __result)

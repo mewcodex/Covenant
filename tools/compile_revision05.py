@@ -235,6 +235,8 @@ def prefix_rule(text):
     event, limit = 'play', ''
     starts = [
         ('每场战斗首次打出时，', 'play', 'battle'),
+        ('此牌使箭矢松脱时，', 'play', ''),
+        ('此牌每使你抽1张牌，', 'play', ''),
         ('抽到这张牌时，', 'draw', ''), ('这张牌被消耗时，', 'exhaust', ''),
         ('此牌因虚无被消耗时，', 'ethereal', ''),
         ('此牌从你的牌组中移除时，', 'remove', ''),
@@ -253,8 +255,10 @@ def prefix_rule(text):
     condition = 'kills>0' if '斩杀' in start[0] or '击杀' in start[0] or '杀死' in start[0] or '变为0' in start[0] else '1'
     if start[0]=='斩杀时，':
         condition='kills>0&&before_fatal_allowed>0'
+    if start[0]=='此牌使箭矢松脱时，':
+        condition='native_dislodges>0'
     if not text:
-        return event, '1', condition, limit
+        return event, 'drawn_count' if start[0]=='此牌每使你抽1张牌，' else '1', condition, limit
     direct = {
         '若目标在此之前已有易伤，': 'before_target_VulnerablePower>0',
         '若目标在此之前没有易伤，': 'before_target_VulnerablePower==0',
@@ -705,9 +709,10 @@ def compile_program(text,card_name=''):
     corruption=re.fullmatch(r'打出后，每当一张技能牌因它被消耗，'+GROW+'。',text)
     if corruption:
         return dict(text=text,nativePowers=[],rules=[instruction('subject_exhaust','temporary',corruption['bond'],corruption['amount'],scope='forced_exhaust',parameter='Skill')])
-    topgrowth=re.fullmatch(r'(?:被它放到抽牌堆顶的牌在下回合被打出时，|打出后，每当被它放回抽牌堆顶的牌在下回合被打出，)'+GROW+'。',text)
+    topgrowth=re.fullmatch(r'(?:被它放到抽牌堆顶的牌在下回合被打出时，|打出后，每当被它放回抽牌堆顶的牌在下回合被打出，|被此牌放到抽牌堆顶的牌下次打出时，)'+GROW+'。',text)
     if topgrowth:
-        return dict(text=text,nativePowers=[],rules=[instruction('subject_play','temporary' if topgrowth['temp'] else 'grow',topgrowth['bond'],topgrowth['amount'],scope='top',lifetime='next_turn')])
+        lifetime='next' if text.startswith('被此牌') else 'next_turn'
+        return dict(text=text,nativePowers=[],rules=[instruction('subject_play','temporary' if topgrowth['temp'] else 'grow',topgrowth['bond'],topgrowth['amount'],scope='top',lifetime=lifetime)])
     alchemy=re.fullmatch(r'打出时，若你的药水栏已满，改为使已激活的【逐利】增加(\d+)层并获得(\d+)金币。',text)
     if alchemy:
         return dict(text=text,nativePowers=[],rules=[instruction('play_override','grow','逐利',alchemy[1]),instruction('play_override','gold','逐利',alchemy[2],requireActive=False)])
@@ -801,7 +806,7 @@ def compile_program(text,card_name=''):
     if replay_bonus:
         event='damage_bonus' if replay_bonus[1]=='攻击牌' else 'block_bonus'
         return dict(text=text,nativePowers=[],rules=[instruction(event,'modifier',replay_bonus[4],f'{replay_bonus[3]}+floor(A/{replay_bonus[5]})*{replay_bonus[6]}',scope='replay',lifetime='next_replay',requireActive=False)],amountText=f'被它额外打出的那张{replay_bonus[1]}{replay_bonus[2]}增加{{0}}点。')
-    native_notes={'Hang':'这个数值同样被吊杀翻倍。','HeavyShot':'这个数值也受此牌的瞄准倍率影响。','Fisticuffs':'由此获得的格挡同样增加。','BlossomShot':'由此获得的拉伸同样增加。'}
+    native_notes={'Hang':'这个数值同样被吊杀翻倍。','Fisticuffs':'由此获得的格挡同样增加。','BlossomShot':'由此获得的拉伸同样增加。'}
     if card_name in native_notes and text.endswith(native_notes[card_name]):
         program=compile_program(text[:-len(native_notes[card_name])],card_name)
         program['text']=text;program['amountText']+=native_notes[card_name]
@@ -889,6 +894,9 @@ def compile_program(text,card_name=''):
     if counted:
         metric=('exhausted' if '被消耗牌' in text else 'played')+('_costplus_sum' if counted[2] else '_cost_sum')
         return dict(text=text,nativePowers=[],rules=[instruction('play','grow',counted[1],f'{counted[3]}*{metric}')])
+    endturn_count=re.fullmatch(r'此牌在回合结束时每打出1张牌，使已激活的【([^】]+)】增加等同于该牌原始费用加1的层数。',text)
+    if endturn_count:
+        return dict(text=text,nativePowers=[],rules=[instruction('native','grow',endturn_count[1],'played_costplus_sum')])
     native_count=re.fullmatch(r'打出后，每当它(?:在回合结束时)?打出(?:抽牌堆顶的牌|一张攻击牌|一张打击牌|一张牌)，使已激活的【([^】]+)】临时增加层数，数量为该牌原始费用(加1)?的(\d+)倍。',text)
     if native_count:
         return dict(text=text,nativePowers=[],rules=[instruction('native','temporary',native_count[1],f'{native_count[3]}*played_cost{"plus" if native_count[2] else ""}_sum')])

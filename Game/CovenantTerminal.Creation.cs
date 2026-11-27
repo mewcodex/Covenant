@@ -63,7 +63,8 @@ public sealed partial class CovenantTerminal
     private static bool FreeGeneratedCardStars(CardModel __instance,ref int __result)
     {
         if(!__instance.IsMutable||For(__instance.Owner)?.CreationFreeThisTurn(__instance)!=true)return true;
-        __result=0;
+        // A negative cost means no star icon. A waived star cost still has an icon.
+        __result=__instance.HasStarCostX?0:Math.Min(0,__instance.CurrentStarCost);
         return false;
     }
 

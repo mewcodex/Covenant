@@ -36,11 +36,24 @@ public static class CardMembership
         Bond.Curse,Bond.Status,Bond.Solitude]);
     public static readonly IReadOnlyDictionary<string,CardDefinition> Definitions=Load();
     [ThreadStatic] private static CostCountScope? _costCountScope;
+    [ThreadStatic] private static Dictionary<(Player Player,bool Deck,bool RespectSuppression),Dictionary<Bond,int>>? _presentationCounts;
     private sealed class CostCountScope(Player player)
     {
         internal Player Player { get; }=player;
         internal int? HeavyCount;
         internal int? InitiativeCount;
+        internal int? StarsCount;
+    }
+    // Only share counts during a synchronous, read-only native UI refresh.
+    internal static bool BeginPresentationBatch()
+    {
+        if(_presentationCounts!=null)return false;
+        _presentationCounts=new();
+        return true;
+    }
+    internal static void EndPresentationBatch(bool ownsBatch)
+    {
+        if(ownsBatch)_presentationCounts=null;
     }
     internal static ulong Bit(Bond bond)=>1UL<<(int)bond;
     private static ulong Mask(IEnumerable<Bond> bonds)
@@ -224,7 +237,14 @@ public static class CardMembership
         =>CountForPlayer(card.Owner,deck:false,resolving:card,respectSuppression:true,exhausting:card);
 
     public static Dictionary<Bond,int> Counts(Player player,bool deck=false,CardModel? resolving=null,bool respectSuppression=true)
-        =>CountForPlayer(player,deck,resolving,respectSuppression);
+    {
+        if(_presentationCounts==null||resolving!=null||_costCountScope!=null||_quotingZero)
+            return CountForPlayer(player,deck,resolving,respectSuppression);
+        var key=(player,deck,respectSuppression);
+        if(!_presentationCounts.TryGetValue(key,out var counts))
+            _presentationCounts[key]=counts=CountForPlayer(player,deck,null,respectSuppression);
+        return counts;
+    }
 
     private static Dictionary<Bond,int> CountForPlayer(Player player,bool deck,CardModel? resolving,bool respectSuppression,CardModel? exhausting=null)
     {
@@ -283,11 +303,15 @@ public static class CardMembership
 
     internal static int CountForCost(Player player,Bond bond)
     {
-        // Heavy and Initiative are independent of current costs.
-        // A full membership scan quotes many prices. Share these live counts only within that synchronous scan.
+        // These three covenants do not depend on the costs being quoted.
         if(_costCountScope is not {} scope||scope.Player!=player)return ScanCostBond(player,bond);
-        return bond==Bond.Heavy?(scope.HeavyCount??=ScanCostBond(player,bond)):
-            (scope.InitiativeCount??=ScanCostBond(player,bond));
+        return bond switch
+        {
+            Bond.Heavy=>scope.HeavyCount??=ScanCostBond(player,bond),
+            Bond.Initiative=>scope.InitiativeCount??=ScanCostBond(player,bond),
+            Bond.Stars=>scope.StarsCount??=ScanCostBond(player,bond),
+            _=>throw new ArgumentOutOfRangeException(nameof(bond),bond,null)
+        };
     }
     private static int ScanCostBond(Player player,Bond bond)
     {

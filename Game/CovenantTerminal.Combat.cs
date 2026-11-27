@@ -653,6 +653,7 @@ public sealed partial class CovenantTerminal
         {
             if(Active(Bond.Doom,source))
             {
+                c=CovenantSelection.WithChoiceSupport(c,Owner);
                 var first=Once("doom");
                 if(first||Advanced(Bond.Doom,source))
                 {
@@ -663,9 +664,13 @@ public sealed partial class CovenantTerminal
                 if(first)
                 {
                     await Draw(c);
-                    if(Owner.PlayerCombatState!.Hand.Cards.Count==0)return;
+                    var state=Owner.PlayerCombatState!;
+                    if(Owner.Creature.IsDead||state.Hand.Cards.Count==0)return;
                     var prefs=CovenantSelection.Single(Presentation.Literal("选择1张手牌放到抽牌堆顶部。"));
-                    var selected=(await CardSelectCmd.FromHand(c,Owner,prefs,null,(AbstractModel?)source??this)).FirstOrDefault();
+                    var choices=state.Phase==PlayerTurnPhase.Play
+                        ?await CardSelectCmd.FromHand(c,Owner,prefs,null,(AbstractModel?)source??this)
+                        :await CardSelectCmd.FromSimpleGrid(c,state.Hand.Cards,Owner,prefs);
+                    var selected=choices.FirstOrDefault();
                     if(selected!=null)await CardPileCmd.Add(selected,PileType.Draw,CardPilePosition.Top);
                 }
             }

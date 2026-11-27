@@ -3,6 +3,7 @@ using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.CardSelection;
 using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization;
 using MegaCrit.Sts2.Core.Models;
@@ -18,6 +19,18 @@ internal static class CovenantSelection
 {
     private sealed record Options(bool CanSkip);
     private static readonly ConditionalWeakTable<LocString,Options> Prompts=new();
+
+    internal static PlayerChoiceContext WithChoiceSupport(PlayerChoiceContext context,Player player)
+    {
+        if(context is not ThrowingPlayerChoiceContext)return context;
+        if(RevisionTrace.FindChoiceContext(player) is {} parent)return parent;
+
+        // Some native powers run outside any queued player action. The hook must wait for the selection.
+        var blocking=new BlockingPlayerChoiceContext();
+        if(context.ModelStack is {} models)
+            foreach(var model in models.Reverse())blocking.PushModel(model);
+        return blocking;
+    }
 
     internal static CardSelectorPrefs Single(LocString prompt,bool optional=false)
     {

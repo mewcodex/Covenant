@@ -151,7 +151,8 @@ internal static class Hud
                 lastRoom=room;if(room is MerchantRoom){expanded=false;Hide();}else if(room is CombatRoom)expanded=true;
                 showAll=false;scrollBeforePreview=null;scroll.ScrollHorizontal=0;fold.QueueRedraw();more.QueueRedraw();
             }
-            var live=Snapshot(terminal,CardMembership.Counts(player,respectSuppression:false),CardMembership.SolitudeSuppressed(player),projected:false);
+            var liveCounts=CardMembership.Counts(player,respectSuppression:false);
+            var live=Snapshot(terminal,liveCounts,CardMembership.SolitudeSuppressed(player),projected:false);
             var hasFateRoster=terminal.FateCards.Count>0;
             var hasOracleRoster=terminal.OracleCards.Count>0;
             var offer=AcquisitionPreview.CardFor(player);
@@ -200,7 +201,7 @@ internal static class Hud
             var key=badgeScale+":"+scrolling+":"+string.Join(";",shown.Select(entry=>$"{entry.Definition.Id}:{entry.State}:{entry.Changed}"));
             var formulaChanged=showingFormulas!=CovenantSettings.ShowFormulas;
             showingFormulas=CovenantSettings.ShowFormulas;
-            if(currentData!=badgeData){badgeData=currentData;Presentation.RefreshCardBadges();}
+            if(currentData!=badgeData){badgeData=currentData;Presentation.RefreshCardBadges(player,liveCounts);}
             if(!bar.Visible&&panel.Visible)Hide();
             if(key==fingerprint)
             {

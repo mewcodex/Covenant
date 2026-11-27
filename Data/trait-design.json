@@ -11765,7 +11765,7 @@
   "HeavyShot": {
     "revision": {
       "base": {
-        "text": "此牌额外造成3点伤害；【游弋】每1档再增加1点。这个数值也受此牌的瞄准倍率影响。",
+        "text": "此牌额外造成3点伤害；【游弋】每1档再增加1点。",
         "nativePowers": [],
         "rules": [
           {
@@ -11777,11 +11777,11 @@
             "requireActive": false
           }
         ],
-        "amountText": "此牌额外造成{0}点伤害。这个数值也受此牌的瞄准倍率影响。",
+        "amountText": "此牌额外造成{0}点伤害。",
         "causalPowers": []
       },
       "upgraded": {
-        "text": "此牌额外造成4点伤害；【游弋】每1档再增加1点。这个数值也受此牌的瞄准倍率影响。",
+        "text": "此牌额外造成4点伤害；【游弋】每1档再增加1点。",
         "nativePowers": [],
         "rules": [
           {
@@ -11793,10 +11793,10 @@
             "requireActive": false
           }
         ],
-        "amountText": "此牌额外造成{0}点伤害。这个数值也受此牌的瞄准倍率影响。",
+        "amountText": "此牌额外造成{0}点伤害。",
         "causalPowers": []
       },
-      "sourceSha256": "729fc313c1a0b5c46ee8a1a3120152d5939169726cca0b9674975305484485fc"
+      "sourceSha256": "dee806f9f622347e91a6b2fca803141b762cae776d6bf7e55bfbf136f3f43ac4"
     }
   },
   "Hegemony": {
@@ -19397,7 +19397,7 @@
   "Recall": {
     "revision": {
       "base": {
-        "text": "此牌使箭矢松脱时，使已激活的【游弋】增加6层，并使已激活的【远见】增加4层。",
+        "text": "此牌使箭矢松脱时，使已激活的【游弋】增加6层。",
         "nativePowers": [],
         "rules": [
           {
@@ -19407,19 +19407,12 @@
             "amount": "6*(1)",
             "condition": "native_dislodges>0",
             "limit": ""
-          },
-          {
-            "event": "play",
-            "action": "grow",
-            "bond": "Foresight",
-            "amount": "4",
-            "condition": "native_dislodges>0"
           }
         ],
         "causalPowers": []
       },
       "upgraded": {
-        "text": "此牌使箭矢松脱时，使已激活的【游弋】增加8层，并使已激活的【远见】增加5层。",
+        "text": "此牌使箭矢松脱时，使已激活的【游弋】增加8层。",
         "nativePowers": [],
         "rules": [
           {
@@ -19429,18 +19422,11 @@
             "amount": "8*(1)",
             "condition": "native_dislodges>0",
             "limit": ""
-          },
-          {
-            "event": "play",
-            "action": "grow",
-            "bond": "Foresight",
-            "amount": "5",
-            "condition": "native_dislodges>0"
           }
         ],
         "causalPowers": []
       },
-      "sourceSha256": "c0cb12121b8c82a79e567f0fe77675ec2655552e49de304e5ba8556e159e4797"
+      "sourceSha256": "00e9eab6220c709f1c7345c25e0e4b3214f797377ab8f32a848dde7b536a47ac"
     }
   },
   "RefineBlade": {
@@ -21696,7 +21682,7 @@
   "Simpleton": {
     "revision": {
       "base": {
-        "text": "每当此牌在回合结束时打出一张牌，使已激活的【重装】增加层数，数量为该牌原始费用加1的1倍。",
+        "text": "此牌在回合结束时每打出1张牌，使已激活的【重装】增加等同于该牌原始费用加1的层数。",
         "nativePowers": [
           "SimpletonPower"
         ],
@@ -21705,14 +21691,14 @@
             "event": "native",
             "action": "grow",
             "bond": "Heavy",
-            "amount": "1*played_costplus_sum",
+            "amount": "played_costplus_sum",
             "condition": "1"
           }
         ],
         "causalPowers": []
       },
       "upgraded": {
-        "text": "每当此牌在回合结束时打出一张牌，使已激活的【重装】增加层数，数量为该牌原始费用加1的2倍。",
+        "text": "此牌在回合结束时每打出1张牌，使已激活的【重装】增加等同于该牌原始费用加1的层数。",
         "nativePowers": [
           "SimpletonPower"
         ],
@@ -21721,13 +21707,13 @@
             "event": "native",
             "action": "grow",
             "bond": "Heavy",
-            "amount": "2*played_costplus_sum",
+            "amount": "played_costplus_sum",
             "condition": "1"
           }
         ],
         "causalPowers": []
       },
-      "sourceSha256": "ece6e9695d61e2e0bba9b67313fbbea6b09471cb83fd82d083df9629279fd7f7"
+      "sourceSha256": "8f9ad08ea03a21c2c13920194992c717457c4677d713010c7589a1ee50548244"
     }
   },
   "Skewer": {
@@ -26004,34 +25990,36 @@
   "TrickShot": {
     "revision": {
       "base": {
-        "text": "使已激活的【游弋】增加3层。",
+        "text": "此牌每使你抽1张牌，使已激活的【游弋】增加2层。",
         "nativePowers": [],
         "rules": [
           {
             "event": "play",
             "action": "grow",
             "bond": "Arrows",
-            "amount": "3",
-            "condition": "1"
+            "amount": "2*(drawn_count)",
+            "condition": "1",
+            "limit": ""
           }
         ],
         "causalPowers": []
       },
       "upgraded": {
-        "text": "使已激活的【游弋】增加4层。",
+        "text": "此牌每使你抽1张牌，使已激活的【游弋】增加2层。",
         "nativePowers": [],
         "rules": [
           {
             "event": "play",
             "action": "grow",
             "bond": "Arrows",
-            "amount": "4",
-            "condition": "1"
+            "amount": "2*(drawn_count)",
+            "condition": "1",
+            "limit": ""
           }
         ],
         "causalPowers": []
       },
-      "sourceSha256": "ccc86fdd6805cf2ac2213749660b3da7bfb2cb234477f70ddf2d0ef1ac9fe738"
+      "sourceSha256": "f563be226313858d2cfe47c65ed33cf26c86ad1e070ff6b1211d644fe473f05b"
     }
   },
   "TrueGrit": {
@@ -27289,36 +27277,38 @@
   "WahKi": {
     "revision": {
       "base": {
-        "text": "使已激活的【合奏】增加4层。",
+        "text": "被此牌放到抽牌堆顶的牌下次打出时，使已激活的【合奏】增加6层。",
         "nativePowers": [],
         "rules": [
           {
-            "event": "play",
+            "event": "subject_play",
             "action": "grow",
             "bond": "Melody",
-            "amount": "4*(1)",
+            "amount": "6",
             "condition": "1",
-            "limit": ""
+            "scope": "top",
+            "lifetime": "next"
           }
         ],
         "causalPowers": []
       },
       "upgraded": {
-        "text": "使已激活的【合奏】增加5层。",
+        "text": "被此牌放到抽牌堆顶的牌下次打出时，使已激活的【合奏】增加8层。",
         "nativePowers": [],
         "rules": [
           {
-            "event": "play",
+            "event": "subject_play",
             "action": "grow",
             "bond": "Melody",
-            "amount": "5*(1)",
+            "amount": "8",
             "condition": "1",
-            "limit": ""
+            "scope": "top",
+            "lifetime": "next"
           }
         ],
         "causalPowers": []
       },
-      "sourceSha256": "9c74b757448d0acc14d5be9ed062748fcdb7b90d6f380ae037b408eb6850aa19"
+      "sourceSha256": "677382e58b81a43e1b6cef8d446fbdf8e4ec205c9bdb46070e6a891680478bc0"
     }
   },
   "WahSweep": {
@@ -27359,7 +27349,7 @@
   "WahSymphony": {
     "revision": {
       "base": {
-        "text": "此牌从每张哇、啾、叽牌获得的伤害增加值提高A/4点（【合奏】）。",
+        "text": "此牌从每张啾牌或叽牌获得的伤害增加值提高A/4点（【合奏】）。",
         "nativePowers": [],
         "rules": [
           {
@@ -27372,11 +27362,11 @@
             "requireActive": false
           }
         ],
-        "amountText": "此牌从每张哇、啾、叽牌获得的伤害增加值提高{0}点（【合奏】）。",
+        "amountText": "此牌从每张啾牌或叽牌获得的伤害增加值提高{0}点（【合奏】）。",
         "causalPowers": []
       },
       "upgraded": {
-        "text": "此牌从每张哇、啾、叽牌获得的伤害增加值提高A/3点（【合奏】）。",
+        "text": "此牌从每张啾牌或叽牌获得的伤害增加值提高A/3点（【合奏】）。",
         "nativePowers": [],
         "rules": [
           {
@@ -27389,10 +27379,10 @@
             "requireActive": false
           }
         ],
-        "amountText": "此牌从每张哇、啾、叽牌获得的伤害增加值提高{0}点（【合奏】）。",
+        "amountText": "此牌从每张啾牌或叽牌获得的伤害增加值提高{0}点（【合奏】）。",
         "causalPowers": []
       },
-      "sourceSha256": "8297ad2395e4833aaf87d9fcf34537aa0f011ad5e3f3c3c03af828a9d3ea0475"
+      "sourceSha256": "8dff22d910bf3176a6b6ee49cc893b017a909acac15785b2d73f3886e2d2fc2c"
     }
   },
   "WahTouch": {

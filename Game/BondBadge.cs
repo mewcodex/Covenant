@@ -1,3 +1,5 @@
+using System.Globalization;
+using System.Text;
 using Covenant.Core;
 using Godot;
 
@@ -12,12 +14,21 @@ internal static class BondBadge
     // Reference 02/04: a 52 px outer diameter, 1 px solid white core,
     // 11 px stroke height and 5 px spacing between the two stage strokes.
     private const float StageReferenceScale=(RingOuterRadius*2)/52;
-    private static Shader? _stageCutout;
+    private const float BackgroundHeight=62;
+    private const int RasterScale=2;
+    private static readonly Vector2 Center=new(36,30);
+    private static readonly Vector2 StageCenter=new(Center.X,Center.Y-RingRadius);
+    private const float StageHalfHeight=5.5f*StageReferenceScale;
+    private const float StageStroke=StageReferenceScale;
+    private const float StageSpacing=5*StageReferenceScale;
+    private readonly record struct BackgroundStyle(Bond? Palette,bool Card,bool Suppressed,int Tier,int Segments,int Filled);
+    private static readonly Dictionary<BackgroundStyle,Texture2D> Backgrounds=new();
     internal static readonly Color Cyan=new("43efd0"), Dim=new("657b79"), Ink=new("122126");
     private static readonly Color Gold=new("f5c75b"), PaleGold=new("e5cf94"), MutedGold=new("ad9865");
     private static readonly Color OracleRed=new("f77c62"), OracleDim=new("ca6757"), MutedRed=new("8c493e");
     private static readonly Color InactiveIcon=new("a2b7b4"), InactiveName=new("bdcecb");
     private static readonly Color BadgeShadow=new(0,0,0,.68f), BadgeOutline=new("121c1e");
+    private static readonly Color InactiveDisc=new("233135"), SuppressedFill=new("9aa9a7");
 
     internal static bool HasSpecialPalette(Bond bond) => bond is Bond.Fate or Bond.Oracle;
     internal static Color Accent(Bond bond,bool active) => bond switch
@@ -33,70 +44,14 @@ internal static class BondBadge
         var active=tier>0;
         var emphasizeInactive=!active&&!card;
         var segments=active?bond.Segments:bond.Basic;
-        var oracle=bond.Id==Bond.Oracle;
         var hasSpecialPalette=HasSpecialPalette(bond.Id);
         var accent=Accent(bond.Id,active);
-        var unfilled=oracle?MutedRed:hasSpecialPalette?MutedGold:Dim;
         var badge=new Control{Name="Badge",Size=new(Width,card?62:Height),MouseFilter=Control.MouseFilterEnum.Ignore};
-        var stageCenter=new Vector2(36,30-RingRadius);
-        var stageHalfHeight=5.5f*StageReferenceScale;
-        var stageStroke=StageReferenceScale;
-        var stageSpacing=5*StageReferenceScale;
-        if(tier>0)
-        {
-            // Only the disc and ring use this material. The stage is a separate child, so the
-            // margin around its strokes reveals the real scene rather than a painted background.
-            _stageCutout??=new Shader{Code="""
-                shader_type canvas_item;
-                uniform vec4 cutout;
-                varying vec2 local_position;
-                void vertex() { local_position = VERTEX; }
-                void fragment() {
-                    if (local_position.x >= cutout.x && local_position.y >= cutout.y &&
-                        local_position.x <= cutout.z && local_position.y <= cutout.w) {
-                        discard;
-                    }
-                }
-                """};
-            const float margin=1.5f;
-            var halfWidth=(stageStroke+(tier-1)*stageSpacing)/2;
-            var cutout=new Vector4(stageCenter.X-halfWidth-margin,stageCenter.Y-stageHalfHeight-margin,
-                stageCenter.X+halfWidth+margin,stageCenter.Y+stageHalfHeight+margin);
-            var material=new ShaderMaterial{Shader=_stageCutout};material.SetShaderParameter("cutout",cutout);badge.Material=material;
-            badge.SetMeta("stage_cutout",cutout);
-        }
-        // Before activation, the ring measures progress toward the first threshold.
-        badge.Draw+=()=>
-        {
-            var center=new Vector2(36,30);
-            if(emphasizeInactive)
-            {
-                badge.DrawCircle(center+new Vector2(0,1.4f),DiscRadius+1.2f,BadgeShadow,antialiased:true);
-                badge.DrawCircle(center,DiscRadius+.85f,hasSpecialPalette?unfilled:Dim,antialiased:true);
-            }
-            // Do not paint the annulus: the space between the inner disc and outer segments is transparent.
-            badge.DrawCircle(center,DiscRadius,active||hasSpecialPalette?accent:new Color("233135"));
-            var step=Mathf.Tau/segments;
-            // Match the visible radial clearance (26 - 1.5 - 21), with a little extra breathing room.
-            var gap=Math.Min(2*Mathf.Asin((RingInnerRadius-DiscRadius+1)/(2*RingRadius)),step*.35f);
-            for(var i=0;i<segments;i++)
-            {
-                var start=-Mathf.Pi/2+i*step+gap/2;
-                var end=start+step-gap;
-                if(emphasizeInactive)
-                {
-                    badge.DrawArc(center+new Vector2(0,1.2f),RingRadius,start,end,20,BadgeShadow,4.5f,true);
-                    badge.DrawArc(center,RingRadius,start,end,20,BadgeOutline,4.5f,true);
-                }
-                if(oracle)
-                {
-                    badge.DrawArc(center,RingOuterRadius+1.6f,start,end,20,new Color(Gold,.09f),2.5f,true);
-                    badge.DrawArc(center,RingOuterRadius+.6f,start,end,20,new Color(Gold,active?.25f:.17f),1.4f,true);
-                }
-                var color=i<count?(suppressed?new Color("9aa9a7"):accent):unfilled;
-                badge.DrawArc(center,RingRadius,start,end,20,color,RingOuterRadius-RingInnerRadius,true);
-            }
-        };
+        var filled=Math.Clamp(count,0,segments);
+        var background=BackgroundTexture(new(hasSpecialPalette?bond.Id:null,card,suppressed,tier,segments,filled));
+        badge.AddChild(new TextureRect{Name="Background",ExpandMode=TextureRect.ExpandModeEnum.IgnoreSize,
+            Texture=background,Size=new(Width,BackgroundHeight),TextureFilter=CanvasItem.TextureFilterEnum.Linear,
+            MouseFilter=Control.MouseFilterEnum.Ignore});
         if(tier>0)
         {
             var stage=new Control{Name="Stage",Size=new(Width,16),MouseFilter=Control.MouseFilterEnum.Ignore};badge.AddChild(stage);
@@ -104,8 +59,8 @@ internal static class BondBadge
             {
                 for(var i=0;i<tier;i++)
                 {
-                    var x=stageCenter.X+(i-(tier-1)/2f)*stageSpacing;
-                    stage.DrawLine(new(x,stageCenter.Y-stageHalfHeight),new(x,stageCenter.Y+stageHalfHeight),Colors.White,stageStroke,true);
+                    var x=StageCenter.X+(i-(tier-1)/2f)*StageSpacing;
+                    stage.DrawLine(new(x,StageCenter.Y-StageHalfHeight),new(x,StageCenter.Y+StageHalfHeight),Colors.White,StageStroke,true);
                 }
             };
         }
@@ -142,7 +97,72 @@ internal static class BondBadge
             }
             badge.AddChild(name);
         }
-        badge.SetMeta("segments",segments);badge.SetMeta("filled_segments",Math.Min(count,segments));
+        badge.SetMeta("segments",segments);badge.SetMeta("filled_segments",filled);
         return badge;
+    }
+
+    private static Texture2D BackgroundTexture(BackgroundStyle style)
+    {
+        if(Backgrounds.TryGetValue(style,out var result))return result;
+
+        var active=style.Tier>0;
+        var accent=style.Palette is {} palette?Accent(palette,active):active?Cyan:Dim;
+        var unfilled=style.Palette switch{Bond.Oracle=>MutedRed,Bond.Fate=>MutedGold,_=>Dim};
+        var outline=!active&&!style.Card;
+        var svg=new StringBuilder();
+        svg.Append(CultureInfo.InvariantCulture,$"<svg xmlns='http://www.w3.org/2000/svg' width='{Width}' height='{BackgroundHeight}'>");
+        void Disc(float y,float radius,Color color)=>svg.Append(CultureInfo.InvariantCulture,
+            $"<circle cx='{Center.X}' cy='{y}' r='{radius}' fill='#{color.ToHtml(false)}' fill-opacity='{color.A}'/>");
+        void Arc(float y,float radius,float start,float end,Color color,float width)
+        {
+            var first=new Vector2(Center.X,y)+Vector2.FromAngle(start)*radius;
+            var last=new Vector2(Center.X,y)+Vector2.FromAngle(end)*radius;
+            var largeArc=end-start>Mathf.Pi?1:0;
+            svg.Append(CultureInfo.InvariantCulture,
+                $"<path d='M {first.X} {first.Y} A {radius} {radius} 0 {largeArc} 1 {last.X} {last.Y}' fill='none' stroke='#{color.ToHtml(false)}' stroke-opacity='{color.A}' stroke-width='{width}'/>");
+        }
+        if(outline)
+        {
+            Disc(Center.Y+1.4f,DiscRadius+1.2f,BadgeShadow);
+            Disc(Center.Y,DiscRadius+.85f,unfilled);
+        }
+        Disc(Center.Y,DiscRadius,active||style.Palette.HasValue?accent:InactiveDisc);
+        // Keep both the annulus and the gaps between segments transparent.
+        var step=Mathf.Tau/style.Segments;
+        var gap=Math.Min(2*Mathf.Asin((RingInnerRadius-DiscRadius+1)/(2*RingRadius)),step*.35f);
+        for(var i=0;i<style.Segments;i++)
+        {
+            var start=-Mathf.Pi/2+i*step+gap/2;
+            var end=start+step-gap;
+            if(outline)
+            {
+                Arc(Center.Y+1.2f,RingRadius,start,end,BadgeShadow,4.5f);
+                Arc(Center.Y,RingRadius,start,end,BadgeOutline,4.5f);
+            }
+            if(style.Palette==Bond.Oracle)
+            {
+                Arc(Center.Y,RingOuterRadius+1.6f,start,end,new Color(Gold,.09f),2.5f);
+                Arc(Center.Y,RingOuterRadius+.6f,start,end,new Color(Gold,active?.25f:.17f),1.4f);
+            }
+            var color=i<style.Filled?(style.Suppressed?SuppressedFill:accent):unfilled;
+            Arc(Center.Y,RingRadius,start,end,color,RingOuterRadius-RingInnerRadius);
+        }
+        svg.Append("</svg>");
+        using var image=new Image();
+        if(image.LoadSvgFromString(svg.ToString(),RasterScale)!=Error.Ok)
+            throw new InvalidOperationException("Could not rasterize covenant badge background.");
+        if(active)
+        {
+            // Bake the stage notch into the alpha channel so the badge renders the same in all card grids.
+            const float margin=1.5f;
+            var halfWidth=(StageStroke+(style.Tier-1)*StageSpacing)/2+margin;
+            var halfHeight=StageHalfHeight+margin;
+            var left=Mathf.FloorToInt((StageCenter.X-halfWidth)*RasterScale);
+            var right=Mathf.CeilToInt((StageCenter.X+halfWidth)*RasterScale);
+            var top=Math.Max(0,Mathf.FloorToInt((StageCenter.Y-halfHeight)*RasterScale));
+            var bottom=Mathf.CeilToInt((StageCenter.Y+halfHeight)*RasterScale);
+            image.FillRect(new(left,top,right-left,bottom-top),Colors.Transparent);
+        }
+        return Backgrounds[style]=ImageTexture.CreateFromImage(image);
     }
 }

@@ -12,7 +12,7 @@ DrumOfBattle Encore EscapePlan Expertise Fetch Finesse FlashOfSteel Ftl Glimmer 
 Impatience Joy KiHop MasterOfStrategy MinionStrike Modded Neurosurge Offering
 Overclock Parse PhotonCut Pillage PommelStrike Prepared Prophesize Reboot Reflex Restlessness
 RocketPunch Rummage Scourge Scrape Scrawl ShrugItOff Skim Slimed Soul SpoilsOfBattle
-SteadyCadence SweepingBeam TheHermit TheHighPriestess TheSun ThinkingAhead WahChoKi
+SteadyCadence SweepingBeam TheHermit TheHighPriestess TheSun ThinkingAhead TrickShot WahChoKi
 WheelOfFortune Wrest''', '原版效果直接抽牌，包含有条件、随机分支或奇巧自动打出的抽牌。')
 include('DarkEmbrace', '附加能力在消耗卡牌后抽牌。', 'DarkEmbracePower')
 include('Iteration', '附加能力在满足原版条件的抽牌后继续抽牌。', 'IterationPower')
@@ -24,7 +24,7 @@ include('Ennui', '附加能力增加后续回合抽牌。', 'EnnuiPower')
 include('MachineLearning', '附加能力增加后续回合抽牌。', 'MachineLearningPower')
 include('ToolsOfTheTrade', '附加能力增加后续回合抽牌，再主动弃牌。', 'ToolsOfTheTradePower')
 include('Tyranny', '附加能力增加后续回合抽牌，再消耗手牌。', 'TyrannyPower')
-include('GuidingStar WahKi Plot Predator Relax TheStar', '附加下回合抽牌能力。', 'DrawCardsNextTurnPower')
+include('GuidingStar Plot Predator Relax TheStar', '附加下回合抽牌能力。', 'DrawCardsNextTurnPower')
 include('DeathMarch Murder', '伤害读取原版抽牌记录，属于抽牌收益。')
 include('GrandFinale', '抽牌堆为空时才能打出，属于抽空牌堆的收益。')
 include('Finisher LunarBlast GoldAxe', '攻击次数或伤害读取原版出牌数量记录。')

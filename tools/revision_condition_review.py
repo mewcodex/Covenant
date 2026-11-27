@@ -18,7 +18,6 @@ REVIEW = {
     'PrepTime': ('Fury', '狂战', '此牌使你获得活力时', (2, 3), 'native', 'power_owner_VigorPower>0'),
     'Putrefy': ('Ember', '余烬', '', (4, 6), 'play', '1'),
     'RefineBlade': ('Forge', '铸王', '下回合开始时', (5, 7), 'native', 'gain_energy>0'),
-    'TrickShot': ('Arrows', '游弋', '', (3, 4), 'play', '1'),
     'Underworld': ('Doom', '厄兆', '', (4, 6), 'play', '1'),
     'WahTouch': ('Melody', '合奏', '', (3, 4), 'play', '1'),
     # Fixed native output or an incidental check such as a hit getting past block.

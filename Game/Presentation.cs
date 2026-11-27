@@ -50,7 +50,12 @@ internal static class Presentation
         foreach(var name in new[]{nameof(RelicModel.Icon),nameof(RelicModel.IconOutline),nameof(RelicModel.BigIcon)})
             h.Patch(AccessTools.PropertyGetter(typeof(RelicModel),name),prefix:new HarmonyMethod(typeof(Presentation),nameof(RelicIcon)));
         h.Patch(AccessTools.Method(typeof(NRelic),"Reload"),postfix:new HarmonyMethod(typeof(Presentation),nameof(ReloadRelicArt)));
-        h.Patch(AccessTools.Method(typeof(NCard),nameof(NCard.UpdateVisuals)),postfix:new HarmonyMethod(typeof(Presentation),nameof(CardVisuals)));
+        var beginCardBatch=new HarmonyMethod(typeof(Presentation),nameof(BeginCardBatch));
+        var endCardBatch=new HarmonyMethod(typeof(Presentation),nameof(EndCardBatch));
+        h.Patch(AccessTools.Method(typeof(NCard),nameof(NCard.UpdateVisuals)),prefix:beginCardBatch,
+            postfix:new HarmonyMethod(typeof(Presentation),nameof(CardVisuals)),finalizer:endCardBatch);
+        h.Patch(AccessTools.DeclaredMethod(typeof(NCardGrid),"InitGrid",Type.EmptyTypes),prefix:beginCardBatch,finalizer:endCardBatch);
+        h.Patch(AccessTools.DeclaredMethod(typeof(NCardGrid),"UpdateGridPositions"),prefix:beginCardBatch,finalizer:endCardBatch);
         h.Patch(AccessTools.Method(typeof(NCard),nameof(NCard._Ready)),postfix:new HarmonyMethod(typeof(Presentation),nameof(CardIcons)));
         h.Patch(AccessTools.PropertyGetter(typeof(CardModel),nameof(CardModel.Description)),prefix:new HarmonyMethod(typeof(Presentation),nameof(OptionDescription)));
         h.Patch(AccessTools.PropertyGetter(typeof(CardModel),nameof(CardModel.HoverTips)),postfix:new HarmonyMethod(typeof(Presentation),nameof(CardHoverTips)));
@@ -200,6 +205,8 @@ internal static class Presentation
         CardTraitTip.Update(__instance,previewMode);
         UpdateCardIcons(__instance);
     }
+    private static void BeginCardBatch(out bool __state)=>__state=CardMembership.BeginPresentationBatch();
+    private static void EndCardBatch(bool __state)=>CardMembership.EndPresentationBatch(__state);
     private static void CardHoverTips(CardModel __instance,ref IEnumerable<IHoverTip> __result)
     {
         if(CardMembership.Definition(__instance) is not {} definition)return;
@@ -224,11 +231,11 @@ internal static class Presentation
         var text=TraitText(__instance,annotateScaling:true);
         __result=__result.Append(new HoverTip(Literal(TraitDisplay.TraitTitle(__instance,bond)),BondDescription.Format(text,__instance,CardTraitTip.InspectionInLibrary,splitSentences:false),Icon(bond)));
     }
-    internal static void RefreshCardBadges()
+    internal static void RefreshCardBadges(Player player,Dictionary<Bond,int> liveCounts)
     {
-        var counts=new Dictionary<Player,Dictionary<Bond,int>>();
+        var counts=new Dictionary<Player,Dictionary<Bond,int>>{{player,liveCounts}};
         foreach(var entry in Cards)
-            if(GodotObject.IsInstanceValid(entry.Key)&&entry.Key.IsInsideTree())UpdateCardIcons(entry.Key,counts);
+            if(GodotObject.IsInstanceValid(entry.Key)&&entry.Key.IsInsideTree()&&!entry.Key.IsQueuedForDeletion())UpdateCardIcons(entry.Key,counts);
         QueueCardTraitRefresh();
     }
     internal static void RefreshCardTraits()
@@ -241,7 +248,7 @@ internal static class Presentation
             return result;
         }
         foreach(var entry in Cards)
-            if(GodotObject.IsInstanceValid(entry.Key)&&entry.Key.IsInsideTree())CardTraitTip.Update(entry.Key,countsFor:CountsFor);
+            if(GodotObject.IsInstanceValid(entry.Key)&&entry.Key.IsInsideTree()&&!entry.Key.IsQueuedForDeletion())CardTraitTip.Update(entry.Key,countsFor:CountsFor);
     }
     internal static void QueueCardTraitRefresh()
     {

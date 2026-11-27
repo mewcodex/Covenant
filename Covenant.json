@@ -3,7 +3,7 @@
   "name": "杀戮尖塔2：盟约",
   "author": "20829",
   "description": "用卡牌组成盟约，积累本局层数，获得全局效果与卡牌特性。默认启用六角色卡池。鏖战按敌人回合计数，超时后逐步增加伤害。",
-  "version": "0.6.19",
+  "version": "0.6.20",
   "min_game_version": "0.114.0",
   "has_dll": true,
   "has_pck": false,

@@ -14,7 +14,7 @@ Squash SuckerPunch Suppress Taunt TheEmpress Thunderclap Tracking Tremble Upperc
 Vicious Vitriol WahTouch
 """.split())
 
-DRAW_TRAIT_ONLY = {'Automation', 'Cacophony', 'PaleBlueDot', 'Speedster'}
+DRAW_TRAIT_ONLY = {'Automation', 'Cacophony', 'PaleBlueDot', 'Speedster', 'TrickShot'}
 MAD_SCIENCE_BONDS = {
     'Sapping': (('Breach', '破绽'),),
     'Violence': (('Fury', '狂战'),),
@@ -115,6 +115,13 @@ def revise_membership(row):
             evidence.pop(bond, None)
         evidence['Variants'] = '事件附加效果决定特性盟约。各技能形态额外计入坚守，各能力形态额外计入仪式。'
         return
+    if name == 'WahKi':
+        if 'Rotation' in bonds:
+            bonds.remove('Rotation')
+        evidence.pop('Rotation', None)
+        if 'Foresight' not in bonds:
+            bonds.append('Foresight')
+        evidence['Foresight'] = '选择弃牌堆中的一张牌置于牌堆顶。'
     if name in ROTATION_MEMBERS and ('Chain' in bonds or 'Rotation' in bonds or name in DRAW_TRAIT_ONLY or name == 'Stratagem'):
         if name != 'DrumOfBattle' and name not in IMMEDIATE_CHAIN and 'Chain' in bonds:
             bonds.remove('Chain')
@@ -273,14 +280,6 @@ def scale_selected_card(program, upgraded):
                              'amount': str(amount), 'condition': '1', 'scope': 'returned', 'lifetime': 'next'})
 
 
-def simplify_recall(program, upgraded):
-    amount = 5 if upgraded else 4
-    program['text'] = program['text'].replace('打出时，若因此使箭矢松脱，', '此牌使箭矢松脱时，')
-    program['text'] = program['text'].rstrip('。') + f'，并使已激活的【远见】增加{amount}层。'
-    program['rules'].append({'event': 'play', 'action': 'grow', 'bond': 'Foresight',
-                             'amount': str(amount), 'condition': 'native_dislodges>0'})
-
-
 def scale_innate_mind_blast(program, upgraded):
     for rule in program['rules']:
         rule['bond'] = 'Initiative'
@@ -301,6 +300,5 @@ SUPPORT_TRAITS = {
         p, f'每实际花费1点蓝星，使已激活的【倾注】增加{2 if u else 1}层。',
         'Channel', f'{2 if u else 1}*spent_stars', 'native_play_index==0'),
     'Hologram': scale_selected_card,
-    'Recall': simplify_recall,
     'HeavenlyDrill': lambda p, u: p['rules'][0].update(condition='x_value>=4'),
 }

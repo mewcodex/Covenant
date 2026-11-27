@@ -11,7 +11,7 @@ namespace Covenant.Game;
 [ModInitializer(nameof(Initialize))]
 public static class Bootstrap
 {
-    public const string Version="0.6.19";
+    public const string Version="0.6.20";
     public static void Initialize()
     {
         CovenantSettings.EnsureLoaded();

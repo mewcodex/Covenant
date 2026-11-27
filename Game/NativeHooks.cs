@@ -118,18 +118,9 @@ internal static class NativeHooks
         __state=CovenantTerminal.For(player);
         if(__state==null)return;
         __state.BeginNativeChannel();
-        if(choiceContext is not ThrowingPlayerChoiceContext)return;
-
         // Vanilla can channel during energy reset with no action that can host a choice.
         // Resonance and Overload may open a selection while that channel is still resolving.
-        var context=RevisionTrace.FindChoiceContext(player);
-        if(context==null)
-        {
-            context=new BlockingPlayerChoiceContext();
-            if(choiceContext.ModelStack is {} models)
-                foreach(var model in models.Reverse())context.PushModel(model);
-        }
-        choiceContext=context;
+        choiceContext=CovenantSelection.WithChoiceSupport(choiceContext,player);
     }
     private static void ChannelFinished(CovenantTerminal? __state,ref Task __result)
     {if(__state!=null)__result=FinishChannel(__state,__result);}

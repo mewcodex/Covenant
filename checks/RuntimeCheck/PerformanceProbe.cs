@@ -6,13 +6,19 @@ using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.CardSelection;
 using MegaCrit.Sts2.Core.Combat;
+using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.CardRewardAlternatives;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
+using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.CardPools;
+using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Encounters;
 using MegaCrit.Sts2.Core.Models.Monsters;
+using MegaCrit.Sts2.Core.Nodes.Cards;
+using MegaCrit.Sts2.Core.Nodes.Screens;
+using MegaCrit.Sts2.Core.Nodes.Screens.Capstones;
 using MegaCrit.Sts2.Core.Random;
 using MegaCrit.Sts2.Core.Runs;
 using MegaCrit.Sts2.Core.Saves;
@@ -227,6 +233,7 @@ internal static class PerformanceProbe
             };
             File.WriteAllText(path,JsonSerializer.Serialize(report,new JsonSerializerOptions{WriteIndented=true}));
             Console.WriteLine($"COVENANT_PERF_COMPLETE {path} turn={state.TurnNumber} manual={steps.Count(step=>step.Phase=="card")}");
+            await VerifyPileBadges(tree,player,output);
         }
         finally
         {
@@ -234,5 +241,51 @@ internal static class PerformanceProbe
             tree.ProcessFrame-=Frame;
             choices?.Dispose();
         }
+    }
+
+    private static async Task VerifyPileBadges(SceneTree tree,Player player,string output)
+    {
+        var combat=player.Creature.CombatState!;
+        var state=player.PlayerCombatState!;
+        var starCard=combat.CreateCard<Devastate>(player);
+        CardModel[] starMembers=[starCard,combat.CreateCard<Alignment>(player),combat.CreateCard<BlackHole>(player),
+            combat.CreateCard<ChildOfTheStars>(player),combat.CreateCard<CrescentSpear>(player),
+            combat.CreateCard<Convergence>(player),combat.CreateCard<DyingStar>(player),combat.CreateCard<Glow>(player)];
+        foreach(var card in starMembers)await CardPileCmd.Add(card,PileType.Draw,skipVisuals:true);
+        var starCount=CardMembership.Counts(player).GetValueOrDefault(Bond.Stars);
+        if(starCount<BondCatalog.Get(Bond.Stars).Advanced||CardMembership.CountForCost(player,Bond.Stars)!=starCount||
+            starCard.EnergyCost.GetWithModifiers(CostModifiers.All)!=0)
+            throw new Exception("Star covenant cost scan disagrees with the full count or does not waive energy at tier II.");
+
+        foreach(var pile in new[]{state.DrawPile,state.DiscardPile,state.ExhaustPile})
+        {
+            var defend=combat.CreateCard<DefendIronclad>(player);
+            await CardPileCmd.Add(defend,pile.Type,CardPilePosition.Top,skipVisuals:true);
+            var screen=NCardPileScreen.ShowScreen(pile,[]);
+            try
+            {
+                await tree.ToSignal(tree.CreateTimer(.35),SceneTreeTimer.SignalName.Timeout);
+                await tree.ToSignal(RenderingServer.Singleton,RenderingServer.SignalName.FramePostDraw);
+                var card=screen.GetNode<NCardGrid>("CardGrid").GetCardNode(defend);
+                var badge=card?.Body.GetNodeOrNull<Control>("CovenantIcons/Guard");
+                var background=badge?.GetNodeOrNull<TextureRect>("Background");
+                if(background is not {Texture:{} texture}||!background.IsVisibleInTree()||!badge!.HasNode("Stage"))
+                    throw new Exception($"{pile.Type} is missing the active Guard badge background.");
+                using var art=texture.GetImage();
+                if(art.GetPixel(40,60).A<.95f||art.GetPixel(116,60).A>.02f)
+                    throw new Exception($"{pile.Type} lost the solid disc or filled the transparent annulus.");
+                using var screenshot=tree.Root.GetTexture().GetImage();
+                var point=badge.GetGlobalTransformWithCanvas()*new Vector2(20,30);
+                point*=(Vector2)screenshot.GetSize()/badge.GetViewportRect().Size;
+                var actual=screenshot.GetPixel(Mathf.RoundToInt(point.X),Mathf.RoundToInt(point.Y));
+                var expected=art.GetPixel(40,60);
+                if(Math.Abs(actual.R-expected.R)+Math.Abs(actual.G-expected.G)+Math.Abs(actual.B-expected.B)>.25f)
+                    throw new Exception($"{pile.Type} disc is missing in the rendered grid at {point}: {actual} vs {expected}.");
+                if(pile.Type==PileType.Draw)screenshot.SavePng(output+"/covenant-pile-badges.png");
+                Console.WriteLine($"COVENANT_PILE_BADGE_PASS {pile.Type}");
+            }
+            finally{NCapstoneContainer.Instance!.Close();}
+        }
+        Console.WriteLine("COVENANT_PILE_BADGE_COMPLETE");
     }
 }

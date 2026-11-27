@@ -425,7 +425,8 @@ public sealed partial class CovenantTerminal
     public override bool TryModifyEnergyCostInCombatLate(CardModel card,decimal originalCost,out decimal modifiedCost)
     {
         if(CreationFreeThisTurn(card)||(originalCost>0&&card.IsMutable&&card.Owner==Owner&&
-            (card.HasStarCostX||card.BaseStarCost>0||card.CurrentStarCost>0)&&Advanced(Bond.Stars)))
+            (card.HasStarCostX||card.BaseStarCost>0||card.CurrentStarCost>0)&&
+            TierAtCount(Bond.Stars,CardMembership.CountForCost(Owner,Bond.Stars))>1))
         {modifiedCost=0;return originalCost!=0;}
         modifiedCost=originalCost;
         if(originalCost is not (2 or 3)||!InitiativeDiscountAvailable(card))return false;
